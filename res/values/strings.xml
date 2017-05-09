@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, QuickScriptureActivity!</string>
+    <string name="app_name">Quick Scripture</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="sendScriptureNow">Send Random Scripture Now</string>
+    <string name="setDailyAlarm">Set Alarm</string>
+    <string name="sendDailyScripture">People List</string>
+    <string name="sendDailyNotification">Myself</string>
+    <string name="timeToSendMessageDaily">Time To Send Message Daily</string>
+    <string name="addNewPerson">Add New Person</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="save">Save</string>
+    <string name="findInContacts">Find In Contacts</string>
+    <string name="mainView">Main View</string>
+    <string name="createMessage">Create Message</string>
+    <string name="viewPeople">View People</string>
+    <string name="send">Send</string>
+    <string name="enterMessage">Enter Message</string>
+    <string name="recipients">Recipients</string>
+    <string name="volume">Volume of Scripture</string>
+    <string name="bookOfMormon">Book of Mormon</string>
+    <string name="newTestament">New Testament</string>
+    <string name="oldTestament">Old Testament</string>
+    <string name="bible">Bible</string>
+    <string name="alarmOn">Alarm Is On</string>
+    <string name="cancelAlarm">Cancel Alarm</string>
+
+</resources>

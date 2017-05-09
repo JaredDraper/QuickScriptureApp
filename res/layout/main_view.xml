@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timeToSendMessageDaily"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+        <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btnSetDailyAlarm"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton"
+        android:padding="8dp"
+        android:text="@string/setDailyAlarm"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnCancelAlarm"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton"
+        android:padding="8dp"
+        android:text="@string/cancelAlarm"
+        android:textColor="#FFFFFF" />
+
+    </TableRow>
+
+        <TextView
+            android:id="@+id/txtAlarmStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/lblRecipients"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/recipients"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+        <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <CheckBox
+        android:id="@+id/cbxSendDaily"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendDailyScripture" />
+
+    <CheckBox
+        android:id="@+id/cbxSendNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sendDailyNotification" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lblVolume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/volume"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <CheckBox
+        android:id="@+id/cbxBookOfMormon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bookOfMormon" />
+
+    <CheckBox
+        android:id="@+id/cbxBible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bible" />
+    
+    </TableRow>
+
+      <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custombutton"
+        android:padding="8dp"
+        android:text="@string/sendScriptureNow"
+        android:textColor="#FFFFFF" />
+
+    </TableRow>
+
+</TableLayout>

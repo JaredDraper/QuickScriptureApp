@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enterMessage"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/txtMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center|left" >
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="100dp"
+            android:textColor="#FFFFFF"
+		    android:background="@drawable/custombutton"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/send" />
+
+    </TableRow>
+
+</TableLayout>

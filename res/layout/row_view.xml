@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/newVideoTableRow"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <Button
+        android:id="@+id/Entry"
+        android:layout_width="@dimen/tagButtonWidth"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnNewDelete"
+        android:layout_width="@dimen/editButtonWidth"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:textColor="#FFFFFF"
+		android:background="@drawable/custombutton"
+        android:text="@string/delete" />
+
+</TableRow>
